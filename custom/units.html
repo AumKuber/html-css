@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+<style> 
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav {
+  background: red;
+  display: grid;
+  /* grid-template-columns: 50% ,10% ,10%, 10%, 10% ,10%; */
+  grid-template-columns: repeat(6,1fr);
+  grid-template-rows: repeat(1,50px);
+}
+</style>
+   
+  </style>
+  <body>
+    <nav>
+      <div class="logo">
+        <h1>Navbar</h1>
+        <div class="links">
+          <h4>home</h4>
+          <h4>about us</h4>
+          <h4>pricing</h4>
+          <h4>shopping</h4>
+          <h4>product</h4>
+        </div>
+      </div>
+    </nav>
+  </body>
+</html>
